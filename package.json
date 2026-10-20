@@ -1,5 +1,5 @@
 {
-	"name": "@3sixty/auditable-item-graph",
+	"name": "3sixty-auditable-item-graph",
 	"version": "0.0.0",
 	"description": "Modular packages for implementing and consuming an auditable item graph.",
 	"repository": {

@@ -4,7 +4,7 @@ PATCH operations for a sub-list on a vertex.
 
 ## Type Parameters
 
-### TItem
+### TItem {#titem}
 
 `TItem` = [`IAuditableItemGraphEdge`](IAuditableItemGraphEdge.md) \| [`IAuditableItemGraphAlias`](IAuditableItemGraphAlias.md) \| [`IAuditableItemGraphResource`](IAuditableItemGraphResource.md)
 

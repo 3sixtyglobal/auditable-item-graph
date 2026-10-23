@@ -511,7 +511,7 @@ The direction for the order, defaults to desc.
 
 ##### properties?
 
-keyof `IAuditableItemGraphVertex`[]
+(keyof `IAuditableItemGraphVertex`)[]
 
 The properties to return, if not provided defaults to id, created, aliases and object.
 

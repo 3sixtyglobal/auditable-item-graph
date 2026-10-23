@@ -369,7 +369,7 @@ The direction for the order, defaults to descending.
 
 ##### properties?
 
-keyof [`IAuditableItemGraphVertex`](IAuditableItemGraphVertex.md)[]
+(keyof [`IAuditableItemGraphVertex`](IAuditableItemGraphVertex.md))[]
 
 The properties to return, if not provided defaults to id, dateCreated, aliases and object.
 

@@ -1,6 +1,6 @@
 {
 	"name": "@3sixty/auditable-item-graph-models",
-	"version": "0.20.0-next.1",
+	"version": "0.20.0-next.2",
 	"description": "Defines shared graph data contracts, JSON schemas, and JSON-LD contexts for consistent interoperability.",
 	"repository": {
 		"type": "git",

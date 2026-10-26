@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.20.0-next.2](https://github.com/3sixtyglobal/auditable-item-graph/compare/auditable-item-graph-rest-client-v0.20.0-next.1...auditable-item-graph-rest-client-v0.20.0-next.2) (2026-10-26)
+
+
+### Features
+
+* release to next [skip ci] ([#23](https://github.com/3sixtyglobal/auditable-item-graph/issues/23)) ([2f4d2ca](https://github.com/3sixtyglobal/auditable-item-graph/commit/2f4d2ca2416c532c927e57df638df99a6d6f4c69))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @3sixty/auditable-item-graph-models bumped from 0.20.0-next.1 to 0.20.0-next.2
+
 ## [0.20.0-next.1](https://github.com/3sixtyglobal/auditable-item-graph/compare/auditable-item-graph-rest-client-v0.20.0-next.0...auditable-item-graph-rest-client-v0.20.0-next.1) (2026-10-23)
 
 

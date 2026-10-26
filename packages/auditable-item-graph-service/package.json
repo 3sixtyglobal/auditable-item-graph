@@ -1,6 +1,6 @@
 {
 	"name": "@3sixty/auditable-item-graph-service",
-	"version": "0.20.0-next.1",
+	"version": "0.20.0-next.2",
 	"description": "Implements graph lifecycle operations and audited change tracking with API route definitions.",
 	"repository": {
 		"type": "git",
@@ -32,7 +32,7 @@
 	},
 	"dependencies": {
 		"@3sixty/api-models": "next",
-		"@3sixty/auditable-item-graph-models": "0.20.0-next.1",
+		"@3sixty/auditable-item-graph-models": "0.20.0-next.2",
 		"@3sixty/context": "next",
 		"@3sixty/core": "next",
 		"@3sixty/crypto": "next",

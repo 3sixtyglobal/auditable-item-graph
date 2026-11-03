@@ -23,7 +23,7 @@ import {
 	ContextIdStore,
 	type IContextIds
 } from "@3sixty/context";
-import { ComponentFactory, Is, RandomHelper, SharedStore } from "@3sixty/core";
+import { ComponentFactory, DurationConstants, Is, RandomHelper, SharedStore } from "@3sixty/core";
 import { ComparisonOperator, LogicalOperator, SortDirection } from "@3sixty/entity";
 import { MemoryEntityStorageConnector } from "@3sixty/entity-storage-connector-memory";
 import { EntityStorageConnectorFactory } from "@3sixty/entity-storage-models";
@@ -3194,7 +3194,7 @@ describe("AuditableItemGraphService", () => {
 			const service = new AuditableItemGraphService();
 
 			let tick = FIRST_TICK;
-			Date.now = vi.fn().mockImplementation(() => (tick += 1000));
+			Date.now = vi.fn().mockImplementation(() => (tick += DurationConstants.MsPerSecond));
 
 			for (let i = 0; i < 3; i++) {
 				await createIndexedVertex(service, "Ordered", i);

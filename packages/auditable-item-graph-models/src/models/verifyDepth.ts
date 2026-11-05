@@ -4,7 +4,6 @@
 /**
  * How deep to verify the signatures.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const VerifyDepth = {
 	/**
 	 * Do not verify any signatures.

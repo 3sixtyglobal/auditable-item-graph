@@ -4,7 +4,6 @@
 /**
  * The contexts of auditable item graph data.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemGraphContexts = {
 	/**
 	 * The canonical RDF namespace URI for Auditable Item Graph.

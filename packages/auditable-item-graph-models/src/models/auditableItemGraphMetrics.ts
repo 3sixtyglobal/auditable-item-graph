@@ -6,7 +6,6 @@ import { AuditableItemGraphMetricIds } from "./auditableItemGraphMetricIds.js";
 /**
  * Metrics registered by the auditable item graph service.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemGraphMetrics: ITelemetryMetric[] = [
 	{
 		id: AuditableItemGraphMetricIds.VerticesCreated,

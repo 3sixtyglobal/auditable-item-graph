@@ -4,7 +4,6 @@
 /**
  * Metric IDs for the auditable item graph service.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemGraphMetricIds = {
 	/**
 	 * Number of vertices created.

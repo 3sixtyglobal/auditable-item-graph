@@ -4,7 +4,6 @@
 /**
  * How the mutations of a vertex are recorded.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemGraphAuditMode = {
 	/**
 	 * Every mutation appends a new version entry and maintains a full audit trail.

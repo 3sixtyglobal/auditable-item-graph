@@ -1591,7 +1591,7 @@ export class AuditableItemGraphService
 	 * entities, so the large patches payload is only transferred when a caller reads it.
 	 * @param options Optional filtering options.
 	 * @param options.before Only fetch changesets created strictly before this ISO 8601 timestamp.
-	 * @param options.maxVersion Only fetch changesets with version <= this value.
+	 * @param options.maxVersion Only fetch changesets with version &lt;= this value.
 	 * @returns All changeset entities sorted ascending by dateCreated.
 	 * @internal
 	 */

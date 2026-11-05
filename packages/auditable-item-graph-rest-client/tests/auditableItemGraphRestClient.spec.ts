@@ -6,7 +6,7 @@ import {
 	type IAuditableItemGraphVertex
 } from "@3sixty/auditable-item-graph-models";
 import { GuardError, ObjectHelper } from "@3sixty/core";
-import { HttpMethod } from "@3sixty/web";
+import { HttpMethod, MimeTypes } from "@3sixty/web";
 import { AuditableItemGraphRestClient } from "../src/auditableItemGraphRestClient.js";
 import {
 	createdResponse,
@@ -196,7 +196,7 @@ describe("AuditableItemGraphRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}/${VERTEX_ID}/changesets?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_CHANGESET_LIST
@@ -472,7 +472,7 @@ describe("AuditableItemGraphRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_VERTEX_LIST

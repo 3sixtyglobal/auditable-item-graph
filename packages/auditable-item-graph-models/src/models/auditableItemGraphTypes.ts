@@ -4,7 +4,6 @@
 /**
  * The types of auditable item graph data.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemGraphTypes = {
 	/**
 	 * Represents auditable item graph vertex.

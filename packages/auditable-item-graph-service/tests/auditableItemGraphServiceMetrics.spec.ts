@@ -1,4 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
+// Copyright 2026 3Sixty Trade Ltd.
 // SPDX-License-Identifier: Apache-2.0.
 import { TenantIdContextIdHandler } from "@3sixty/api-tenant-processor";
 import {
@@ -53,7 +54,7 @@ const FIRST_TICK = 1724327716271;
 const SECOND_TICK = 1724327816272;
 const THIRD_TICK = 1724327916273;
 
-interface MetricValueEntry {
+interface IMetricValueEntry {
 	id: string;
 	value: "inc" | "dec" | number;
 	customData?: { [key: string]: unknown };
@@ -62,10 +63,10 @@ interface MetricValueEntry {
 function makeMockTelemetry(): {
 	component: ITelemetryComponent;
 	created: ITelemetryMetric[];
-	values: MetricValueEntry[];
+	values: IMetricValueEntry[];
 } {
 	const created: ITelemetryMetric[] = [];
-	const values: MetricValueEntry[] = [];
+	const values: IMetricValueEntry[] = [];
 	const component: ITelemetryComponent = {
 		className: () => "MockTelemetry",
 		start: async () => {},
